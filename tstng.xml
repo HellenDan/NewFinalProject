@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Final Project Suite" thread-count="6" parallel="tests">
+
+    <test name="TestSuite1" parallel="tests" >
+        <classes>
+            <class name="TbcPayTests.BalanceTopUpPageTest"/>
+        </classes>
+
+    </test>
+
+    <test name="TestSuite2" parallel="tests" >
+        <classes>
+            <class name="TbcPayTests.VacancyPageTest"/>
+        </classes>
+
+    </test>
+
+
+    <test name="TestSuite3" parallel="tests" >
+        <classes>
+            <class name="TbcPayTests.BasketPageTest"/>
+        </classes>
+
+    </test>
+
+</suite>
